@@ -1,6 +1,6 @@
-﻿namespace dzporpm_1
+namespace dzporpm_1
 {
-    internal class Dictionaries
+    internal Interface IDictionaries
     {
 
     }
