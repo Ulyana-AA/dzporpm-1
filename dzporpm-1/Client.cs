@@ -18,7 +18,7 @@ namespace dzporpm_1
             naturalPerson = new NaturalPerson();
         }
        
-        public void Client() 
+        public void Register() 
         {
         
         }
