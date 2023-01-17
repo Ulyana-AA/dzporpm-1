@@ -4,10 +4,6 @@ namespace dzporpm_1
     {
         List<InsuranceContract> insuranceContracts = new List<InsuranceContract>();
         
-        Policyholder policyholder;
-        public Beneficiary() 
-        {
-            policyholder = new Policyholder();
-        }
+        public Policyholder Policyholder { get; set; }
     }
 }
