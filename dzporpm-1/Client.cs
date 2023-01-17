@@ -11,5 +11,9 @@ namespace dzporpm_1
         List<LegalEntity> legalEntities = new List<LegalEntity>();
         List<NaturalPerson> naturals = new List<NaturalPerson>();
        
+        public void Client() 
+        {
+        
+        }
     }
 }
