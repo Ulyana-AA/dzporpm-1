@@ -1,4 +1,4 @@
-﻿namespace dzporpm_1
+namespace dzporpm_1
 {
     internal class NaturalPerson
     {
