@@ -5,10 +5,20 @@
         private DateTime Term { get; set; }
         private string Territory { get; set; }
         private string Franchise { get; set; }
-        List<Product> products = new List<Product>();
-        List<Insured> insureds = new List<Insured>();
-        List<Beneficiary> beneficiaries = new List<Beneficiary>();
-        List<Policyholder> policyholders = new List<Policyholder>();
-        List<Manager> managers = new List<Manager>();
+        
+        Product product;
+        Insured insured;
+        Beneficiary beneficiary;
+        Policyholder policyholder;
+        Manager manager;
+        
+        public InsuranceContract()
+        {
+            product = new Product();
+            insured = new Insured();
+            beneficiary = new Beneficiary();
+            policyholder = new Policyholder();
+            manager = new Manager();
+        }
     }
 }
