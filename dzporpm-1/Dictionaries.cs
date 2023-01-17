@@ -1,6 +1,6 @@
 namespace dzporpm_1
 {
-    internal Interface IDictionaries
+    internal interface IDictionaries
     {
 
     }
