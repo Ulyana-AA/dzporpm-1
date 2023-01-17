@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 
 namespace dzporpm_1
 {
@@ -7,9 +7,16 @@ namespace dzporpm_1
         private int Id { get; set; }
         private string SignNaturalLegalFace { get; set; }
         private IList[] Contracts { get; set; }
-        private string Contacts { get; set; }
-        List<LegalEntity> legalEntities = new List<LegalEntity>();
-        List<NaturalPerson> naturals = new List<NaturalPerson>();
+        private IList[] Contacts { get; set; }
+        
+        LegalEntity legalEntity;
+        NaturalPerson naturalPerson;
+        
+        public Client()
+        {
+            legalEntity = new LegalEntity();
+            naturalPerson = new NaturalPerson();
+        }
        
         public void Client() 
         {
